@@ -1,16 +1,16 @@
-# Phonebook Application (Python Flask) deployed on AWS Application Load Balancer with Auto Scaling and Relational Database Service using Terraform
+# Phonebook Application (Python Flask) deployed on AWS Application Load Balancer with Auto Scaling and Relational Database Service using Terraform.
 
 ## Description
 
-The Phonebook Application aims to create a phonebook application in Python and deployed as a web application with Flask on AWS Application Load Balancer with Auto Scaling Group of Elastic Compute Cloud (EC2) Instances and Relational Database Service (RDS) using Terraform.
+The Phonebook Application aims to create a phonebook application in Python and deploy as a web application with Flask on AWS Application Load Balancer with Auto Scaling Group of Elastic Compute Cloud (EC2) Instances and Relational Database Service (RDS) using Terraform.
 
 ## Problem Statement
 
 ![Project_002](tf-phonebook.png)
 
-- Your company has recently started a project that aims to serve as phonebook web application. You and your colleagues have started to work on the project. Your teammates have developed the UI part the project as shown in the template folder and develop the coding part and they need your help to deploying the app in development environment.
+- Your company has recently started a project that aims to serve as a phonebook web application. You and your colleagues have begun to work on the project. Your teammates have developed the UI part of the project as shown in the template folder and develop the coding part and they need your help to deploy the app in the development environment.
 
-- As a first step, you need to write program that creates a phonebook, adds requested contacts to the phonebook, finds and removes the contacts from the phonebook.
+- As a first step, you need to write a program that creates a phonebook, adds requested contacts to the phonebook, and finds and removes the contacts.
 
 - Application should allow users to search, add, update and delete the phonebook records and the phonebook records should be kept in separate MySQL database in AWS RDS service. Following is the format of data to be kept in db.
 
