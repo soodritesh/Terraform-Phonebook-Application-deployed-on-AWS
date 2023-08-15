@@ -8,11 +8,11 @@ The Phonebook Application aims to create a phonebook application in Python and d
 
 ![Project_002](tf-phonebook.png)
 
-- Your company has recently started a project that aims to serve as a phonebook web application. You and your colleagues have begun to work on the project. Your teammates have developed the UI part of the project as shown in the template folder and develop the coding part and they need your help to deploy the app in the development environment.
+- Your company has recently started a project that aims to serve as a phonebook web application. You and your colleagues have begun to work on the project. Your teammates have developed the UI part of the project as shown in the template folder and developed the coding part and they need your help to deploy the app in the development environment.
 
-- As a first step, you need to write a program that creates a phonebook, adds requested contacts to the phonebook, and finds and removes the contacts.
+- As a first step, you need to write a program that creates a phonebook, adds requested contacts to the phonebook, and finds and removes the references.
 
-- Application should allow users to search, add, update and delete the phonebook records and the phonebook records should be kept in separate MySQL database in AWS RDS service. Following is the format of data to be kept in db.
+- The application should allow users to search, add, update, and delete the phonebook records and the phonebook records should be kept in a separate MySQL database in AWS RDS service. Following is the format of data to be kept in db.
 
   - id: unique identifier for the phone record, type is numeric.
 
@@ -20,7 +20,7 @@ The Phonebook Application aims to create a phonebook application in Python and d
 
   - number: phone number of the person. type is numeric.
 
-- All the interactions with user on phonebook app should be done in case insensitive manner and name of the person should be formatted so that, only the first letters of each words in the name of the person should be in capital letters. If the user inputs number in the username field, user should be warned with text message.
+- All the interactions with user on the phonebook app should be done in case insensitive manner and name of the person should be formatted so that, only the first letters of each word in the name of the person should be in capital letters. If the user inputs number in the username field, user should be warned with a text message.
 
 - Phone numbers in the app can be in any format, but the inputs should be checked to prevent string type. If the user inputs string in the number field, user should be warned with text message.
 
