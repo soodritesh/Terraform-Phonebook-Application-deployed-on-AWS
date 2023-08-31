@@ -20,16 +20,16 @@ The Phonebook Application aims to create a phonebook application in Python and d
 
   - number: phone number of the person. type is numeric.
 
-- All the interactions with user on the phonebook app should be done in case insensitive manner and name of the person should be formatted so that, only the first letters of each word in the name of the person should be in capital letters. If the user inputs number in the username field, user should be warned with a text message.
+- All the interactions with user on the phonebook app should be done in case insensitive manner and name of the person should be formatted so that, only the first letters of each word in the name of the person should be in capital letters. If the user inputs a number in the username field, the user should be warned with a text message.
 
-- Phone numbers in the app can be in any format, but the inputs should be checked to prevent string type. If the user inputs string in the number field, user should be warned with text message.
+- Phone numbers in the app can be in any format, but the inputs should be checked to prevent string type. If the user inputs a string in the number field, the user should be warned with a text message.
 
 - Example for user inputs and respective formats
 
 ```text
 Input in username field          Format to convert
 --------------                   -----------------
-''                               Warning -> 'Invalid input: Name can not be empty'
+''                               Warning -> 'Invalid input: Name can not be empty
 callahan                         Callahan
 joHn doE                         John Doe
 62267                            Warning -> 'Invalid input: Name of person should be text'
