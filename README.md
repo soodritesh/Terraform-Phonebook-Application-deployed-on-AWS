@@ -12,7 +12,7 @@ The Phonebook Application aims to create a phonebook application in Python and d
 
 - As a first step, you need to write a program that creates a phonebook, adds requested contacts to the phonebook, and finds and removes the references.
 
-- The application should allow users to search, add, update, and delete the phonebook records and the phonebook records should be kept in a separate MySQL database in AWS RDS service. Following is the format of data to be kept in db.
+- The application should allow users to search, add, update, and delete the phonebook records and the phonebook records should be kept in a separate MySQL database in AWS RDS service. Following is the format of data to be keep in db.
 
   - id: unique identifier for the phone record, type is numeric.
 
